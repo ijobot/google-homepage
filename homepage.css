@@ -1,82 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-
-
-/* All Top Nav CSS */
-
-.headernav {
-    background: rgb(209, 156, 156);
-    position: fixed;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    top: 0;
-    left: 0;
 }
 
-.headernav ul {
+.top ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.headernav li {
-    list-style: none;
-    padding: 0 1rem;
-}
-
-.headernav .accountstatus {
-    margin-right: 2rem;
-    border-radius: 50%;
-    
-}
-
-
-/* All Bottom Nav CSS */
-
-.footernav {
-    background: rgb(209, 156, 156);
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.footernav ul {
+.bottom ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.footernav li {
-    list-style: none;
-}
-
-
-/* All Center CSS */
-
-
-.logo {
-    display: block;
-    position: relative;
-    top: 180px;
-    margin: auto;
-}
-
-.searchbar {
-    display: block;
-    position: relative;
-    top: 200px;
-    margin: auto;
-}
-
-.button {
-    display: block;
-    position: relative;
-    top: 210px;
-    margin: auto;
-    align-items: baseline;
-}
 }
